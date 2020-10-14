@@ -1,11 +1,18 @@
-import React from 'react';
+import 'bootstrap'
+// import './theme.scss'
+import React from 'react'
 import Header from './Header'
+import Carousel from './Carousel'
+import Accordion from './Accordion'
+import Blog from './Blog'
+import Projects from './Projects'
+import Footer from './Footer'
 
 class App extends React.Component {
 
   constructor() {
     super();
-    this.pages = ['Home', 'About Me', 'Blog', 'Images', 'Links'];
+    this.pages = ['About Me', 'Blog', 'Projects'];
     this.state = {
       currentPage: 0
     }
@@ -23,6 +30,11 @@ class App extends React.Component {
           currentPage={this.state.currentPage}
           setPage={this.setPage}
         />
+        <Carousel/>
+        <Accordion/>
+        <Blog/>
+        <Projects/>
+        <Footer/>
       </div>
     );
   }
