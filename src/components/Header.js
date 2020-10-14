@@ -1,53 +1,51 @@
 import React from 'react';
 
-function Header(props) {
+function Header() {
   return (
-    <ul className="nav nav-pills">
-      {
-        props.pages.map((item, index) => {
-          return (
-            <li className="nav-item">
-              <a
-                onClick={() => props.setPage(index)}
-                className={"nav-link " + (props.currentPage === index ? 'active' : '')}>
-                {item}
-              </a>
-            </li>
-          )
-        })
-      }
-    </ul>
-
-      // {/* <li className="nav-item">
-      //   <a
-      //     onClick={() => props.setPage(1)}
-      //     className={"nav-link " + (props.currentPage === 1 ? 'active' : '')}>
-      //     {props.pages[1]}
-      //   </a>
-      // </li>
-      // <li className="nav-item">
-      //   <a
-      //     onClick={() => props.setPage(2)}
-      //     className={"nav-link " + (props.currentPage === 2 ? 'active' : '')}>
-      //     {props.pages[2]}
-      //   </a>
-      // </li>
-      // <li className="nav-item">
-      //   <a
-      //     onClick={() => props.setPage(3)}
-      //     className={"nav-link " + (props.currentPage === 3 ? 'active' : '')}>
-      //     {props.pages[3]}
-      //   </a>
-      // </li>
-      // <li className="nav-item">
-      //   <a
-      //     onClick={() => props.setPage(4)}
-      //     className={"nav-link " + (props.currentPage === 4 ? 'active' : '')}>
-      //     {props.pages[4]}
-      //   </a>
-      // </li> */}
-   
+    <div className="container pb-5">
+      <nav className="navbar navbar-expand-lg fixed-top bg-secondary">
+        <a href="index.html"><h4 className="text-light">Kennedy Caneer</h4></a>
+        <button className="navbar-toggler bg-primary text-white" type="button" data-toggle="collapse"
+          data-target="#navbarResponsive1" aria-controls="navbarResponsive1" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i className="fas fa-bars"></i>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarResponsive">
+          <div className="navbar-nav ml-auto">
+            <a className="nav-item nav-link text-light active">
+              <h4>About Me</h4>
+            </a>
+            <a className="nav-item nav-link text-light">
+              <h4>Blog</h4>
+            </a>
+            <a className="nav-item nav-link text-light">
+              <h4>Projects</h4>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div >
   )
 }
 
 export default Header
+
+
+
+
+
+  // < ul classNameName = "nav nav-pills" >
+  // {
+  //   props.pages.map((item, index) => {
+  //     return (
+  //       <li classNameName="nav-item">
+  //         <a
+  //           onClick={() => props.setPage(index)}
+  //           classNameName={"nav-link " + (props.currentPage === index ? 'active' : '')}>
+  //           {item}
+  //         </a>
+  //       </li>
+  //     )
+  //   })
+  // }
+  //   </ul >
