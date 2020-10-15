@@ -12,13 +12,13 @@ function Header() {
         </button>
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <div className="navbar-nav ml-auto">
-            <a className="nav-item nav-link text-light active">
+            <a className="nav-item nav-link text-light active" href="#about">
               <h4>About Me</h4>
             </a>
-            <a className="nav-item nav-link text-light">
+            <a className="nav-item nav-link text-light" href="#blog">
               <h4>Blog</h4>
             </a>
-            <a className="nav-item nav-link text-light">
+            <a className="nav-item nav-link text-light" href="#projects">
               <h4>Projects</h4>
             </a>
           </div>

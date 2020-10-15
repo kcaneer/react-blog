@@ -3,7 +3,7 @@ import React from 'react'
 
 function Projects() {
     return (
-        <div className="container pb-5 mt-2">
+        <div className="container pb-5 mt-2" id="projects">
             <div className="row mx-auto">
                 <div className="col-12 mx-auto">
                     <h4 id="prework">
