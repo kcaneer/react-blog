@@ -2,7 +2,7 @@ import React from "react";
 
 function Blog() {
   return (
-    <div className="container pb-5 mt-5" id="blog">
+    <div className="container pb-5 t-5" id="blog">
       <div className="row mx-auto">
         <div className="col-12 mx-auto">
           <h4 id="prework">Prework Posts</h4>

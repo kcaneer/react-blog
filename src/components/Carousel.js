@@ -1,11 +1,11 @@
 import React from 'react'
-import Colorado from '../img/colorado.jpeg'
-import Headshot from '../img/headshot.jpeg'
+import Colorado from './img/colorado.jpeg'
+import Headshot from './img/kennedy.jpg'
 
 function Carousel() {
 
     return (
-        <div className="container pt-2" id="about">
+        <div className="container pt-5" id="about">
             <div className="row">
                 <div className="col-lg-3 center-block mx-auto">
                     <div id="carouselExampleIndicators" className="carousel slide my-4" data-ride="carousel">
