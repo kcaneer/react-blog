@@ -18,8 +18,8 @@ function Header() {
             <a className="nav-item nav-link text-light" href="#blog">
               <h4>Blog</h4>
             </a>
-            <a className="nav-item nav-link text-light" href="#projects">
-              <h4>Projects</h4>
+            <a className="nav-item nav-link text-light" href="#portfolio">
+              <h4>Portfolio</h4>
             </a>
           </div>
         </div>
