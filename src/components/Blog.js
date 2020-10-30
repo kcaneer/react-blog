@@ -2,7 +2,10 @@ import React from "react";
 
 function Blog() {
   return (
-    <div className="container pb-5 t-5" id="blog">
+    <div className="container pb-5 pt-5" id="blog">
+      <div className="row pb-5 pt-5">
+        <h1>Blog</h1>
+      </div>
       <div className="row mx-auto">
         <div className="col-12 mx-auto">
           <h4 id="prework">Prework Posts</h4>
@@ -110,7 +113,31 @@ function Blog() {
             healthier financial future.
           </p>
           <h2>Week 8:</h2>
-          <p>Coming Soon</p>
+          <p>
+            Why do you see JavaScript Frameworks and Libraries useful or hard to
+            use? What Frameworks or Libraries are you interested in learning
+            more about? Find one emerging JavaScript tool that you would like to
+            learn more about or use in your final project.
+          </p>
+          <h2>Week 9:</h2>
+          <p>
+            Why are CLIs scary? What have you learned about CLIs? Would you
+            build a CLI? What would it do? List a some ideas that without a
+            Framework, would take you a long time to code. How do you feel now
+            (week 5) compared to when you started? What questions haven't you
+            answered on your blog page yet (scroll up and answer them to catch
+            up)?
+          </p>
+          <h2>Week 10:</h2>
+          <p>
+            What do you like about React? What are you struggling with the most
+            about React? How has React caused you to rethink your existing
+            projects? What is your biggest win this week? Halfway through!
+            Compared to week three, what are three ideas you might want to do
+            for your final project? Are they the same, or have they changed now
+            that you understand more about the technology and your limitations?
+            What do you think about hooks
+          </p>
         </div>
         <div className="col-3 mx-right"></div>
       </div>
@@ -120,10 +147,6 @@ function Blog() {
           <h4 id="back">Back End Posts</h4>
         </div>
         <div className="col-6 mx-auto">
-          <h2>Week 9:</h2>
-          <p>Coming Soon</p>
-          <h2>Week 10:</h2>
-          <p>Coming Soon</p>
           <h2>Week 11:</h2>
           <p>Coming Soon</p>
           <h2>Week 12:</h2>

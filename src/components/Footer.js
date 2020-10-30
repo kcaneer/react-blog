@@ -6,7 +6,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 function Footer() {
     return (
-        <div className="container py-3 brand col-lg-12 fixed-bottom bg-dark">
+        <div className="container py-4 brand col-lg-12 fixed-bottom bg-dark">
             <div className="row">
                 <div className="col-4">
                     <p className="m-0 text-center text-white">
