@@ -5,8 +5,8 @@ import Headshot from './img/kennedy.jpg'
 function Carousel() {
 
     return (
-        <div className="container pt-5" id="about">
-            <div className="row">
+        <div className="container pt-5 pb-5" id="about">
+            <div className="row pt-5">
                 <div className="col-lg-3 center-block mx-auto">
                     <div id="carouselExampleIndicators" className="carousel slide my-4" data-ride="carousel">
                         <ol className="carousel-indicators">
