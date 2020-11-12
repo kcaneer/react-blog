@@ -29,11 +29,11 @@ class App extends React.Component {
           currentPage={this.state.currentPage}
           setPage={this.setPage}
         />
-        <Carousel/>
-        <Accordion/>
-        <Blog/>
-        <Projects/>
-        <Footer/>
+        <Carousel />
+        <Accordion />
+        <Projects />
+        <Blog />
+        <Footer />
       </div>
     );
   }

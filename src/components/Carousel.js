@@ -4,8 +4,8 @@ import Headshot from "./img/kennedy.jpg";
 
 function Carousel() {
   return (
-    <div className="container pt-1" id="about">
-      <div className="row pt-5">
+    <div className="myCarousel container pt-1" id="about">
+      <div className="row pt-3 center-block">
         <div className="col-lg-5 center-block mx-auto">
           <div
             id="carouselExampleIndicators"
@@ -26,15 +26,15 @@ function Carousel() {
             <div className="carousel-inner" role="listbox">
               <div className="carousel-item active">
                 <img
-                  className="d-block img-fluid"
+                  className="d-block w-50 img-fluid mx-auto"
                   src={Headshot}
                   alt="First slide"
                 />
               </div>
 
-              <div className="carousel-item">
+              <div className="carousel-item mx-auto">
                 <img
-                  className="d-block img-fluid"
+                  className="d-block w-50 img-fluid"
                   src={Colorado}
                   alt="Second slide"
                 />

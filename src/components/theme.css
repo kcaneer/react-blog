@@ -1,0 +1,5 @@
+.myCarousel {
+  height: 100px !important;
+  width: 75px !important;
+  overflow: hidden;
+}

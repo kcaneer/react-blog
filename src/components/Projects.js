@@ -11,7 +11,7 @@ import eighthImg from "./img/8img.png";
 
 function Projects() {
   return (
-    <div className='pt-5 pb-5' id="portfolio">
+    <div className='pt-5' id="portfolio">
       <h1 className="pb-5 pt-5">
         Portfolio
       </h1>
