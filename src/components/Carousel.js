@@ -32,9 +32,9 @@ function Carousel() {
                 />
               </div>
 
-              <div className="carousel-item mx-auto">
+              <div className="carousel-item">
                 <img
-                  className="d-block w-50 img-fluid"
+                  className="d-block w-50 img-fluid mx-auto"
                   src={Colorado}
                   alt="Second slide"
                 />

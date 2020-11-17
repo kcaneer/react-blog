@@ -4,6 +4,8 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
+
+
 function Footer() {
     return (
       <div className="container py-4 brand col-lg-12 fixed-bottom bg-dark">
@@ -14,7 +16,7 @@ function Footer() {
               <i className="fab fa-linkedin"></i>
               <a
                 className="text-white"
-                href="www.linkedin.com/in/kennedy-caneer"
+                href="https://www.linkedin.com/in/kennedy-caneer/"
                 target="_blank"
               >
                 {" "}
