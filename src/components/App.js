@@ -6,34 +6,26 @@ import Accordion from './Accordion'
 import Blog from './Blog'
 import Projects from './Projects'
 import Footer from './Footer'
+import {BrowserRouter as Router, Link} from 'react-router-dom'
 
 class App extends React.Component {
 
   constructor() {
     super();
-    this.pages = ['About Me', 'Blog', 'Projects'];
-    this.state = {
-      currentPage: 0
-    }
-    this.setPage = this.setPage.bind(this)
-  }
-  setPage(newPageNum) {
-    this.setState({ currentPage: newPageNum })
+    
   }
 
   render() {
     return (
       <div className="App container">
-        <Header
-          pages={this.pages}
-          currentPage={this.state.currentPage}
-          setPage={this.setPage}
-        />
-        <Carousel />
-        <Accordion />
-        <Projects />
-        <Blog />
-        <Footer />
+        <Router>
+          <Header />
+          <Carousel />
+          <Accordion />
+          <Projects />
+          <Blog />
+          <Footer />
+        </Router>
       </div>
     );
   }

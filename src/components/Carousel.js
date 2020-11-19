@@ -4,7 +4,7 @@ import Headshot from "./img/kennedy.jpg";
 
 function Carousel() {
   return (
-    <div className="myCarousel container pt-1" id="about">
+    <div className="myCarousel container pt-1 mt-5 bg-primary" id="about">
       <div className="row pt-3 center-block">
         <div className="col-lg-5 center-block mx-auto">
           <div
