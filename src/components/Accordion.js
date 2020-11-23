@@ -1,6 +1,6 @@
 import React from "react";
 import Ainc from "./img/logo.png";
-// import uk from './img/uk/jpg'
+
 import {
   Collapse,
   Button,
@@ -12,7 +12,7 @@ import {
 function Accordion() {
   return (
     <div>
-      <div className="row text-center d-block pb-4">
+      <div className="row text-center d-block pb-4 pt-3 mt-5">
         <Button color="secondary" id="lunch" style={{ marginBottom: "1rem" }}>
           What is my background?
         </Button>
@@ -37,7 +37,7 @@ function Accordion() {
           </Card>
         </UncontrolledCollapse>
       </div>
-      <div className="row text-center d-block pb-5">
+      <div className="row text-center d-block mb-5 mt-3">
         <Button
           color="secondary"
           id="appetizers"

@@ -29,23 +29,3 @@ function Header() {
 }
 
 export default Header
-
-
-
-
-
-  // < ul classNameName = "nav nav-pills" >
-  // {
-  //   props.pages.map((item, index) => {
-  //     return (
-  //       <li classNameName="nav-item">
-  //         <a
-  //           onClick={() => props.setPage(index)}
-  //           classNameName={"nav-link " + (props.currentPage === index ? 'active' : '')}>
-  //           {item}
-  //         </a>
-  //       </li>
-  //     )
-  //   })
-  // }
-  //   </ul >
