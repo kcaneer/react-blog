@@ -5,6 +5,7 @@ import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import 'bootstrap/dist/css/bootstrap-theme.css';
+import "./components/theme.css";
 
 
 // Put any other imports below so that CSS from your

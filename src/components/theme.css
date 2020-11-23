@@ -1,5 +1,9 @@
-.myCarousel {
-  height: 100px !important;
+/* .myCarousel {
+  height: 150px !important;
   width: 75px !important;
   overflow: hidden;
+} */
+
+#resume {
+  color:rosybrown;
 }
