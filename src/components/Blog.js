@@ -72,10 +72,6 @@ function Blog() {
       <div className="row mx-auto">
         <div className="col-12 mx-auto">
           <h4 id="front">Front End Posts</h4>
-        </div>
-      </div>
-      <div className="row mx-auto">
-        <div className="col-3 mx-left">
           <p>
             {" "}
             <FontAwesomeIcon icon={faBootstrap} />{" "}
@@ -84,6 +80,9 @@ function Blog() {
             <FontAwesomeIcon icon={faJsSquare} />{" "}
           </p>
         </div>
+      </div>
+      <div className="row mx-auto">
+        <div className="col-3 mx-left"></div>
         <div className="col-6 mx-auto">
           <h2>Week 1:</h2>
           <p>
@@ -158,17 +157,15 @@ function Blog() {
         <div className="col-3 mx-right"></div>
       </div>
       <div className="row mx-auto">
-        <div className="col-12 mx-auto">
+        <div className="col-12">
           <h4 id="back">Back End Posts</h4>
-        </div>
-      </div>
-      <div className="row mx-auto">
-        <div className="col-3 mx-left">
           <p>
             <FontAwesomeIcon icon={faPhp} />{" "}
             <FontAwesomeIcon icon={faLaravel} />{" "}
           </p>
         </div>
+      </div>
+      <div className="row mx-auto">
         <div className="col-6 mx-auto">
           <h2>Week 7:</h2>
           <p>
@@ -236,7 +233,7 @@ function Blog() {
           changed in your method from then to now?
         </p>
         <h2>Week 12:</h2>
-        <p>
+        <p className="mb-5">
           How have you progressed and struggled during the time while building
           your Final Project? When was the last time your pseudo coded? What has
           changed in your method from then to now?

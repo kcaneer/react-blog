@@ -1,13 +1,12 @@
 import React from "react";
 import { Media } from "reactstrap";
-import firstImg from "./img/1img.png";
-import secondImg from "./img/2img.png";
-import thirdImg from "./img/3img.png";
-import fourthImg from "./img/4img.png";
-import fifthImg from "./img/5img.png";
-import sixthImg from "./img/6img.png";
-import seventhImg from "./img/7img.png";
-import eighthImg from "./img/8img.png";
+import firstImg from "./img/1.png";
+import secondImg from "./img/2.png";
+import thirdImg from "./img/3.png";
+import fourthImg from "./img/4.png";
+import fifthImg from "./img/5.png";
+import sixthImg from "./img/6.png";
+import seventhImg from "./img/7.png";
 
 function Projects() {
   return (
@@ -15,7 +14,7 @@ function Projects() {
       <h1 className="pb-5 pt-5">
         Portfolio
       </h1>
-      <Media className="col col-6">
+      <Media className="col col-6 mb-2">
         <Media left href="https://kcaneer.github.io/campaign/" target="_blank">
           <Media src={firstImg} alt="first project" />
         </Media>
@@ -29,7 +28,7 @@ function Projects() {
           fictional character
         </Media>
       </Media>
-      <Media className="col col-6">
+      <Media className="col col-6 mb-2">
         <Media
           left
           href="https://kcaneer.github.io/read-your-mind/"
@@ -46,7 +45,7 @@ function Projects() {
           <strong>Instructions: </strong>Create an SPA mind reader application
         </Media>
       </Media>
-      <Media className="col col-6">
+      <Media className="col col-6 mb-2">
         <Media left href="https://kcaneer.github.io/weather-app/">
           <Media src={thirdImg} alt="third project" />
         </Media>
@@ -59,7 +58,7 @@ function Projects() {
           <strong>Instructions: </strong>Build a weather application.
         </Media>
       </Media>
-      <Media className="col col-6">
+      <Media className="col col-6 mb-2">
         <Media left href="https://kcaneer.github.io/tictactoe/">
           <Media src={fourthImg} alt="fourth project" />
         </Media>
@@ -72,7 +71,7 @@ function Projects() {
           <strong>Instructions: </strong>Create a Tic Tac Toe game.
         </Media>
       </Media>
-      <Media className="col col-6">
+      <Media className="col col-6 mb-2">
         <Media left href="https://kcaneer.github.io/tictactoe/">
           <Media src={fifthImg} alt="fifth project" />
         </Media>
