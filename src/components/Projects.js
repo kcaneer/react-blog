@@ -13,25 +13,24 @@ function Projects() {
     <div>
       <div className="pt-5" id="portfolio">
         <h1 className="pt-5">Portfolio</h1>
-        <p>*these are in the order of project completion <br></br>if you are looking for my most recent work<br></br> check out my final project (Project 7)</p>
+        <p>
+          *these are in the order of project completion <br></br>if you are
+          looking for my most recent work<br></br> check out my final project
+          (Project 7)
+        </p>
       </div>
       <div>
         <Media className="col col-6 mb-2 mx-auto">
-          <Media
-            left
-            href="https://kcaneer.github.io/campaign/"
-            target="_blank"
-          >
+          <Media left href="https://countdown-d3c87.web.app/" target="_blank">
             <Media src={firstImg} alt="first project" />
           </Media>
           <Media body className="pl-3 my-auto">
             <Media heading>
-              <a href="https://kcaneer.github.io/campaign/" target="_blank">
-                Michael Scotts campaign website
+              <a href="https://countdown-d3c87.web.app/" target="_blank">
+                Countdown Timer
               </a>
             </Media>
-            <strong>Instructions: </strong>Create a campaign website for a
-            fictional character
+            <strong>Instructions: </strong>Create a countdown application using JS.
           </Media>
         </Media>
         <Media className="col col-6 mb-2 mx-auto">
@@ -112,10 +111,13 @@ function Projects() {
           <Media body className="pl-3 my-auto">
             <Media heading>
               <a href="#" target="_blank">
-               GoodListens
+                GoodListens
               </a>
             </Media>
-            <strong>Final Project: </strong>I built a Goodreads clone for podcasts. A place where podcast lovers can give and receive recommendations, rate the podcasts they listen to, and keep a list of the podcasts they intend to listen to.
+            <strong>Final Project: </strong>I built a Goodreads clone for
+            podcasts. A place where podcast lovers can give and receive
+            recommendations, rate the podcasts they listen to, and keep a list
+            of the podcasts they intend to listen to.
           </Media>
         </Media>
       </div>
