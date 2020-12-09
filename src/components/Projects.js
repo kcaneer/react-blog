@@ -30,7 +30,8 @@ function Projects() {
                 Countdown Timer
               </a>
             </Media>
-            <strong>Instructions: </strong>Create a countdown application using JS.
+            <strong>Instructions: </strong>Create a countdown application using
+            JS.
           </Media>
         </Media>
         <Media className="col col-6 mb-2 mx-auto">
@@ -110,7 +111,7 @@ function Projects() {
           </Media>
           <Media body className="pl-3 my-auto">
             <Media heading>
-              <a href="#" target="_blank">
+              <a href="https://goodlistens.web.app/" target="_blank">
                 GoodListens
               </a>
             </Media>
