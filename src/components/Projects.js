@@ -103,10 +103,11 @@ function Projects() {
             </Media>
             <strong>Instructions: </strong>Create a puzzle sliding game using
             React & hooks.
+            <p className='text-warning'>*currently refactoring</p>
           </Media>
         </Media>
         <Media className="col col-6 pb-5 mx-auto">
-          <Media left href="#">
+          <Media left href="https://goodlistens.web.app/">
             <Media src={seventhImg} alt="final project" />
           </Media>
           <Media body className="pl-3 my-auto">
@@ -116,9 +117,7 @@ function Projects() {
               </a>
             </Media>
             <strong>Final Project: </strong>I built a Goodreads clone for
-            podcasts. A place where podcast lovers can give and receive
-            recommendations, rate the podcasts they listen to, and keep a list
-            of the podcasts they intend to listen to.
+            podcasts. A place where podcast lovers can track their listening activity and keep a list of the podcasts they want to listen to. There's nothing more frustrating than forgetting the podcast you friend said you HAVE to listen to, that's where goodListens comes in!
           </Media>
         </Media>
       </div>
