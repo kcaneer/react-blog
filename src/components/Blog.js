@@ -32,7 +32,7 @@ function Blog() {
             <FontAwesomeIcon icon={faTerminal} />{" "}
           </p>
         </div>
-        <div className="col-6 mx-auto">
+        <div className="col-md-6 col-sm-12 mx-auto">
           <h2>4 Weeks of Remote Introductory work:</h2>
           <p>
             Wow! A lot of change. A lot of downloading. Not much coding...yet.
@@ -83,7 +83,7 @@ function Blog() {
       </div>
       <div className="row mx-auto">
         <div className="col-3 mx-left"></div>
-        <div className="col-6 mx-auto">
+        <div className="col-md-6 col-sm-12 mx-auto">
           <h2>Week 1:</h2>
           <p>
             This week my brain has been stretched further than I knew it could
@@ -166,7 +166,7 @@ function Blog() {
         </div>
       </div>
       <div className="row mx-auto">
-        <div className="col-6 mx-auto">
+        <div className="col-md-6 col-sm-12 mx-auto">
           <h2>Week 7:</h2>
           <p>
             What have you learned about PHP and server side programming that you
@@ -204,7 +204,7 @@ function Blog() {
           </p>
         </div>
       </div>
-      <div className="col-6 mx-auto">
+      <div className="col-md-6 col-sm-12 mx-auto">
         <h2>Week 9:</h2>
         <p>
           What are your thoughts about Laravel and React? What is one thing that

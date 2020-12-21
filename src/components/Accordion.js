@@ -1,6 +1,7 @@
 import React from "react";
 import Ainc from "./img/logo.png";
 import Ky from "./img/uk.jpg"
+import resume from './resume.pdf'
 import {
   Collapse,
   Button,
@@ -29,23 +30,27 @@ function Accordion() {
                 Series 7 and Series 66 licenses, along with my Life and Health
                 Insurance licenses. My inspiration to make a career change came
                 when I began working from home as a result of COVID-19. I
-                realized that the flexibility and independence offered by a
-                career in web development made it the perfect challenge for me.
+                realized that the challenge along with the flexibility and
+                independence offered by a career in web development made it the
+                perfect fit for me.
                 <br />
                 <br />
-                View my <a href="resume.pdf" id="resume">resume</a> for a more complete
-                picture of my professional background.
+                View my{" "}
+                <a
+                  href={resume}
+                  id="resume"
+                  target="_blank"
+                >
+                  resume
+                </a>{" "}
+                for a more complete picture of my professional background.
               </div>
             </CardBody>
           </Card>
         </UncontrolledCollapse>
       </div>
       <div className="row text-center d-block mb-5 mt-3">
-        <Button
-          color="secondary"
-          id="ainc"
-          style={{ marginBottom: "1rem" }}
-        >
+        <Button color="secondary" id="ainc" style={{ marginBottom: "1rem" }}>
           What am I doing now?
         </Button>
         <UncontrolledCollapse toggler="#ainc">
