@@ -20,7 +20,7 @@ function Projects() {
         </p>
       </div>
       <div>
-        <Media className="col col-6 mb-2 mx-auto">
+        <Media className="col col-md-6 col-sm-12 mb-2 mx-auto">
           <Media left href="https://countdown-d3c87.web.app/" target="_blank">
             <Media src={firstImg} alt="first project" />
           </Media>
@@ -34,7 +34,7 @@ function Projects() {
             JS.
           </Media>
         </Media>
-        <Media className="col col-6 mb-2 mx-auto">
+        <Media className="col col-md-6 col-sm-12 mb-2 mx-auto">
           <Media
             left
             href="https://kcaneer.github.io/mind-reader/"
@@ -51,7 +51,7 @@ function Projects() {
             <strong>Instructions: </strong>Create an SPA mind reader application
           </Media>
         </Media>
-        <Media className="col col-6 mb-2 mx-auto">
+        <Media className="col col-md-6 col-sm-12 mb-2 mx-auto">
           <Media left href="https://kcaneer.github.io/weather-app/">
             <Media src={thirdImg} alt="third project" />
           </Media>
@@ -64,7 +64,7 @@ function Projects() {
             <strong>Instructions: </strong>Build a weather application.
           </Media>
         </Media>
-        <Media className="col col-6 mb-2 mx-auto">
+        <Media className="col col-md-6 col-sm-12 mb-2 mx-auto">
           <Media left href="https://kcaneer.github.io/tictactoe/">
             <Media src={fourthImg} alt="fourth project" />
           </Media>
@@ -77,7 +77,7 @@ function Projects() {
             <strong>Instructions: </strong>Create a Tic Tac Toe game.
           </Media>
         </Media>
-        <Media className="col col-6 mb-2 mx-auto">
+        <Media className="col col-md-6 col-sm-12 mb-2 mx-auto">
           <Media left href="https://kcaneer.github.io/tictactoe/">
             <Media src={fifthImg} alt="fifth project" />
           </Media>
@@ -91,7 +91,7 @@ function Projects() {
             call to pre-determined API.
           </Media>
         </Media>
-        <Media className="col col-6 mb-2 mx-auto">
+        <Media className="col col-md-6 col-sm-12 mb-2 mx-auto">
           <Media left href="https://puzzle-slider-9cd28.web.app/">
             <Media src={sixthImg} alt="first project" />
           </Media>
@@ -103,10 +103,10 @@ function Projects() {
             </Media>
             <strong>Instructions: </strong>Create a puzzle sliding game using
             React & hooks.
-            <p className='text-warning'>*currently refactoring</p>
+            <p className="text-warning">*currently refactoring</p>
           </Media>
         </Media>
-        <Media className="col col-6 pb-5 mx-auto">
+        <Media className="col col-md-6 col-sm-12 pb-5 mx-auto">
           <Media left href="https://goodlistens.web.app/">
             <Media src={seventhImg} alt="final project" />
           </Media>
@@ -117,7 +117,11 @@ function Projects() {
               </a>
             </Media>
             <strong>Final Project: </strong>I built a Goodreads clone for
-            podcasts. A place where podcast lovers can track their listening activity and keep a list of the podcasts they want to listen to. There's nothing more frustrating than forgetting the podcast you friend said you HAVE to listen to, that's where goodListens comes in!
+            podcasts. A place where podcast lovers can track their listening
+            activity and keep a list of the podcasts they want to listen to.
+            There's nothing more frustrating than forgetting the podcast you
+            friend said you HAVE to listen to, that's where goodListens comes
+            in!
           </Media>
         </Media>
       </div>
