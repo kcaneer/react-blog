@@ -58,12 +58,8 @@ function Accordion() {
             <CardBody>
               <img src={Ainc} className="text-left"></img>
               <div className="text-center">
-                I am currently in a Web Developer Bootcamp at Awesome Inc. My
-                expected graduation date is December 11
-                <sup>th</sup>. Upon graduation I will be equipped with the
-                knowledge and tools to begin a career as a full stack web
-                developer.
-              </div>
+                In December I graduated from Awesome Inc's web developer bootcamp. During my 16 weeks there I was emmersed in all things Javascript and PHP. I am now working on continuing my education through online courses and beginning to rework the portfolio I built during my time at Awesome Inc.
+             </div>
             </CardBody>
           </Card>
         </UncontrolledCollapse>
