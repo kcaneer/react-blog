@@ -58,7 +58,7 @@ function Accordion() {
             <CardBody>
               <img src={Ainc} className="text-left"></img>
               <div className="text-center">
-                In December I graduated from Awesome Inc's web developer bootcamp. During my 16 weeks there I was emmersed in all things Javascript and PHP. I am now working on continuing my education through online courses and beginning to rework the portfolio I built during my time at Awesome Inc.
+                In December I graduated from Awesome Inc's web developer bootcamp. During my 16 weeks there I was emmersed in all things Javascript and PHP. Now I am working on continuing my education by taking online courses and reworking my portfolio. Specifically, I am taking Harvard's CS50 course as well as Udemy's React: The Complete Guide course to take a deeper dive into CS fundamentals and build on my React knowledge.
              </div>
             </CardBody>
           </Card>
